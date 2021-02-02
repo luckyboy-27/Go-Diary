@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	for i := 0; i < 20; i++ {
+	for i := 0; i < 50; i++ {
 		x := 0
 		for j := 1; j < i; j++ {
 			if i%j == 0 {
