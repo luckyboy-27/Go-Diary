@@ -12,6 +12,8 @@ func main() {
 		}
 		if x == 1 {
 			fmt.Printf("%d is prime\n", i)
+		} else {
+			fmt.Printf("%d is not prime\n", i)
 		}
 	}
 }
