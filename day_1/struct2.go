@@ -10,3 +10,5 @@ type Vertex struct {
 func main() {
 	fmt.Println(Vertex{"vinh", 2})
 }
+
+// from GO tour

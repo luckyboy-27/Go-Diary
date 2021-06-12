@@ -3,13 +3,13 @@ package main
 import "fmt"
 
 func main() {
-	//map is golang implementation of hash tables
+	// map is golang implementation of hash tables
 	// map is a hash table, can use make to create a map
 	var id map[string]int     // string is data type of key, int is data type for value (key & value)
 	id = make(map[string]int) // create an empty map
 	// map litteral
 	a := map[string]int{"vinh": 123, "rose": 3} // can have two values to test assignment for existence of key
-	//accessing map the same as accessing array, or dict in python
+	// accessing map the same as accessing array, or dict in python
 	id["Jack"] = 212  // adding new key-value
 	x, y := a["Jack"] // a is false, id is true
 	delete(a, "rose")
